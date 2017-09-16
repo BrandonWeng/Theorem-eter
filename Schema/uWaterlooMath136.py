@@ -1,12 +1,9 @@
-from datetime import datetime
-from flask import Flask, request, flash, url_for, redirect, \
-     render_template, abort
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import sqlalchemy.orm
-from cockroachdb.sqlalchemy import run_transaction
 
 app = Flask(__name__)
-app.config.from_pyfile('hello.cfg')
+app.config.from_pyfile('../config/cockroach_config.py')
 db = SQLAlchemy(app)
 sessionMaker = sqlalchemy.orm.sessionmaker(db.engine)
 

@@ -1,0 +1,82 @@
+I170916 09:15:45.718545 72057594054705152 util/log/clog.go:1013  [config] file created at: 2017/09/16 09:15:45
+I170916 09:15:45.718545 72057594054705152 util/log/clog.go:1013  [config] running on machine: v1020-wn-0-19
+I170916 09:15:45.718545 72057594054705152 util/log/clog.go:1013  [config] binary: CockroachDB CCL v1.0.6 (darwin amd64, built 2017/09/15 13:34:40, go1.9)
+I170916 09:15:45.718545 72057594054705152 util/log/clog.go:1013  [config] arguments: [cockroach start --insecure --host=localhost]
+I170916 09:15:45.718545 72057594054705152 util/log/clog.go:1013  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+W170916 09:15:45.718543 72057594054705152 cli/start.go:581  RUNNING IN INSECURE MODE!
+
+- Your cluster is open for any client that can access localhost.
+- Any user, even root, can log in without providing a password.
+- Any user, connecting as root, can read or write any data in your cluster.
+- There is no network encryption nor authentication, and thus no confidentiality.
+
+Check out how to secure your cluster: https://www.cockroachlabs.com/docs/secure-a-cluster.html
+I170916 09:15:45.721450 72057594054705152 cli/start.go:593  CockroachDB CCL v1.0.6 (darwin amd64, built 2017/09/15 13:34:40, go1.9)
+I170916 09:15:45.822366 72057594054705152 server/config.go:375  system total memory: 8.0 GiB
+I170916 09:15:45.822518 72057594054705152 server/config.go:377  server configuration:
+max offset                   500ms
+cache size                   2.0 GiB
+SQL memory pool size         2.0 GiB
+scan interval                10m0s
+scan max idle time           200ms
+consistency check interval   24h0m0s
+metrics sample interval      10s
+time until store dead        5m0s
+send next timeout            10m0s
+event log enabled            true
+linearizable                 false
+I170916 09:15:45.824325 cli/start.go:340  starting cockroach node
+W170916 09:15:45.834983 72057594054705152 server/config_unix.go:103  soft open file descriptor limit 10240 is under the recommended limit 15000; this may decrease performance
+please see https://www.cockroachlabs.com/docs/recommended-production-settings.html for more details
+I170916 09:15:45.836517 72057594054705152 storage/engine/rocksdb.go:380  opening rocksdb instance at "/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data"
+I170916 09:15:45.861943 72057594054705152 server/config.go:474  [n?] 1 storage engine initialized
+I170916 09:15:45.861956 72057594054705152 server/config.go:477  [n?] RocksDB cache size: 2.0 GiB
+I170916 09:15:45.861963 72057594054705152 server/config.go:477  [n?] store 0: RocksDB, max size 0 B, max open file limit 9984
+I170916 09:15:45.862587 72057594054705152 server/server.go:672  [n?] sleeping for 469.908638ms to guarantee HLC monotonicity
+I170916 09:15:46.341558 72057594054705152 storage/store.go:1253  [n1] [n1,s1]: failed initial metrics computation: [n1,s1]: system config not yet available
+I170916 09:15:46.342121 72057594054705152 server/node.go:467  [n1] initialized store [n1,s1]: {Capacity:120124866560 Available:18271010816 RangeCount:10 LeaseCount:0}
+I170916 09:15:46.342153 72057594054705152 server/node.go:351  [n1] node ID 1 initialized
+I170916 09:15:46.342235 72057594054705152 gossip/gossip.go:297  [n1] NodeDescriptor set to node_id:1 address:<network_field:"tcp" address_field:"localhost:26257" > attrs:<> locality:<> 
+I170916 09:15:46.342546 72057594054705152 storage/stores.go:296  [n1] read 0 node addresses from persistent storage
+I170916 09:15:46.342718 72057594054705152 server/node.go:608  [n1] connecting to gossip network to verify cluster ID...
+I170916 09:15:46.342748 72057594054705152 server/node.go:633  [n1] node connected via gossip and verified as part of cluster "23f76f30-bd56-48f4-b300-a8ad32372f18"
+I170916 09:15:46.342781 72057594054705152 server/node.go:405  [n1] node=1: started with [[]=/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data] engine(s) and attributes []
+I170916 09:15:46.347364 72057594054705152 sql/executor.go:338  [n1] creating distSQLPlanner with address {tcp localhost:26257}
+I170916 09:15:46.348059 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r5/1:/Table/{0-11}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567746.347279405,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:46.351687 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r5/1:/Table/{0-11}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567746.348187246,0 following repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567746.347279405,0
+I170916 09:15:46.354422 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r3/1:/System/ts{d-e}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567746.353886780,0 following repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567286.606626627,0
+I170916 09:15:46.356976 72057594054705152 server/server.go:735  [n1] starting http server at localhost:8080
+I170916 09:15:46.357003 72057594054705152 server/server.go:736  [n1] starting grpc/postgres server at localhost:26257
+I170916 09:15:46.357028 72057594054705152 server/server.go:737  [n1] advertising CockroachDB node at localhost:26257
+I170916 09:15:46.358305 72057594054705152 server/server.go:847  [n1] done ensuring all necessary migrations have run
+I170916 09:15:46.358329 72057594054705152 server/server.go:849  [n1] serving sql connections
+I170916 09:15:46.358457 72057594054705152 cli/start.go:411  node startup completed:
+CockroachDB node starting at 2017-09-16 09:15:46.358363641 -0400 EDT m=+0.740110791
+build:      CCL v1.0.6 @ 2017/09/15 13:34:40 (go1.9)
+admin:      http://localhost:8080
+sql:        postgresql://root@localhost:26257?sslmode=disable
+logs:       /Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data/logs
+store[0]:   path=/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data
+status:     restarted pre-existing node
+clusterID:  23f76f30-bd56-48f4-b300-a8ad32372f18
+nodeID:     1
+I170916 09:15:46.361758 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r5/1:/Table/{0-11}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567746.360362541,0 following repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567746.348187246,0
+I170916 09:15:46.363649 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r7/1:/Table/1{2-3}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567746.363189172,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:46.365011 sql/event_log.go:96  [n1] Event: "node_restart", target: 1, info: {Descriptor:{NodeID:1 Address:{NetworkField:tcp AddressField:localhost:26257} Attrs: Locality:} ClusterID:23f76f30-bd56-48f4-b300-a8ad32372f18 StartedAt:1505567746342750607 LastUp:1505567321969647283}
+I170916 09:15:46.547073 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r4/1:/{System/tse-Table/0}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567746.545232781,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:46.746747 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r10/1:/{Table/15-Max}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567746.745907566,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:46.947974 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r3/1:/System/ts{d-e}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567746.946392875,0 following repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567746.353886780,0
+I170916 09:15:47.552107 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r9/1:/Table/1{4-5}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567747.549980680,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:47.751554 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r6/1:/Table/1{1-2}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567747.750739701,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:48.153702 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r8/1:/Table/1{3-4}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=2 pro=1505567748.152071519,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:15:56.346657 72057594054705152 storage/store.go:4034  [n1,s1] sstables (read amplification = 1):
+6 [ 106K 1 ]: 106K
+W170916 09:15:56.346824 72057594054705152 server/status/runtime.go:184  [n1] unable to get file descriptor usage (will not try again): not implemented on darwin
+I170916 09:15:56.346979 72057594054705152 server/status/runtime.go:221  [n1] runtime stats: 47 MiB RSS, 120 goroutines, 9.2 MiB/4.7 MiB/22 MiB GO alloc/idle/total, 5.8 MiB/11 MiB CGO alloc/total, 0.00cgo/sec, 0.00/0.00 %(u/s)time, 0.00 %gc (7x)
+I170916 09:15:56.544129 72057594054705152 cli/start.go:446  received signal 'interrupt'
+I170916 09:15:56.544305 72057594054705152 cli/start.go:471  initiating graceful shutdown of server
+I170916 09:15:56.546124 72057594054705152 vendor/google.golang.org/grpc/transport/http2_server.go:323  transport: http2Server.HandleStreams failed to read frame: read tcp 127.0.0.1:26257->127.0.0.1:59338: use of closed network connection
+I170916 09:15:56.546320 72057594037927936 storage/engine/rocksdb.go:447  closing rocksdb instance at "/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data"
+I170916 09:15:56.558193 72057594054705152 cli/start.go:503  server drained and shutdown completed
+E170916 09:15:56.558850 72057594054705152 cli/error.go:68  interrupted
+Error: interrupted

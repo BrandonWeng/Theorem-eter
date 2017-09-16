@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():
-    return 'Team Wave HTN GANG '
+def home():
+    return 'Team Wave HTN 2017'
 
 
 @app.route('/test_post', methods=['GET', 'POST'])
@@ -14,3 +14,4 @@ def test_post():
         return "GET"
     else:
         return "POST"
+

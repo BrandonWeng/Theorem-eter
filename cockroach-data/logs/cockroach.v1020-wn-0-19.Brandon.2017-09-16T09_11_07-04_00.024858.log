@@ -1,0 +1,30 @@
+I170916 09:11:07.549608 72057594054705152 util/log/clog.go:1013  [config] file created at: 2017/09/16 09:11:07
+I170916 09:11:07.549608 72057594054705152 util/log/clog.go:1013  [config] running on machine: v1020-wn-0-19
+I170916 09:11:07.549608 72057594054705152 util/log/clog.go:1013  [config] binary: CockroachDB CCL v1.0.6 (darwin amd64, built 2017/09/15 13:34:40, go1.9)
+I170916 09:11:07.549608 72057594054705152 util/log/clog.go:1013  [config] arguments: [cockroach start --insecure --port=localhost:8081]
+I170916 09:11:07.549608 72057594054705152 util/log/clog.go:1013  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+W170916 09:11:07.549606 72057594054705152 cli/start.go:581  RUNNING IN INSECURE MODE!
+
+- Your cluster is open for any client that can access <all your IP addresses>.
+- Any user, even root, can log in without providing a password.
+- Any user, connecting as root, can read or write any data in your cluster.
+- There is no network encryption nor authentication, and thus no confidentiality.
+
+Check out how to secure your cluster: https://www.cockroachlabs.com/docs/secure-a-cluster.html
+I170916 09:11:07.551008 72057594054705152 cli/start.go:593  CockroachDB CCL v1.0.6 (darwin amd64, built 2017/09/15 13:34:40, go1.9)
+I170916 09:11:07.653986 72057594054705152 server/config.go:375  system total memory: 8.0 GiB
+I170916 09:11:07.654097 72057594054705152 server/config.go:377  server configuration:
+max offset                   500ms
+cache size                   2.0 GiB
+SQL memory pool size         2.0 GiB
+scan interval                10m0s
+scan max idle time           200ms
+consistency check interval   24h0m0s
+metrics sample interval      10s
+time until store dead        5m0s
+send next timeout            10m0s
+event log enabled            true
+linearizable                 false
+I170916 09:11:07.654286 cli/start.go:340  starting cockroach node
+E170916 09:11:07.655667 72057594054705152 cli/error.go:68  failed to start server: unable to resolve RPC address ":localhost:8081": address :localhost:8081: too many colons in address
+Error: failed to start server: unable to resolve RPC address ":localhost:8081": address :localhost:8081: too many colons in address

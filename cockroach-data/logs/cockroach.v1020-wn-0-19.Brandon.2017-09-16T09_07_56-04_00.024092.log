@@ -1,0 +1,96 @@
+I170916 09:07:56.424001 72057594054705152 util/log/clog.go:1013  [config] file created at: 2017/09/16 09:07:56
+I170916 09:07:56.424001 72057594054705152 util/log/clog.go:1013  [config] running on machine: v1020-wn-0-19
+I170916 09:07:56.424001 72057594054705152 util/log/clog.go:1013  [config] binary: CockroachDB CCL v1.0.6 (darwin amd64, built 2017/09/15 13:34:40, go1.9)
+I170916 09:07:56.424001 72057594054705152 util/log/clog.go:1013  [config] arguments: [cockroach start --insecure --http-port=8081]
+I170916 09:07:56.424001 72057594054705152 util/log/clog.go:1013  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+W170916 09:07:56.423999 72057594054705152 cli/start.go:581  RUNNING IN INSECURE MODE!
+
+- Your cluster is open for any client that can access <all your IP addresses>.
+- Any user, even root, can log in without providing a password.
+- Any user, connecting as root, can read or write any data in your cluster.
+- There is no network encryption nor authentication, and thus no confidentiality.
+
+Check out how to secure your cluster: https://www.cockroachlabs.com/docs/secure-a-cluster.html
+I170916 09:07:56.424633 72057594054705152 cli/start.go:593  CockroachDB CCL v1.0.6 (darwin amd64, built 2017/09/15 13:34:40, go1.9)
+I170916 09:07:56.525787 72057594054705152 server/config.go:375  system total memory: 8.0 GiB
+I170916 09:07:56.528178 72057594054705152 server/config.go:377  server configuration:
+max offset                   500ms
+cache size                   2.0 GiB
+SQL memory pool size         2.0 GiB
+scan interval                10m0s
+scan max idle time           200ms
+consistency check interval   24h0m0s
+metrics sample interval      10s
+time until store dead        5m0s
+send next timeout            10m0s
+event log enabled            true
+linearizable                 false
+I170916 09:07:56.528462 cli/start.go:340  starting cockroach node
+W170916 09:07:56.537829 72057594054705152 server/config_unix.go:103  soft open file descriptor limit 10240 is under the recommended limit 15000; this may decrease performance
+please see https://www.cockroachlabs.com/docs/recommended-production-settings.html for more details
+I170916 09:07:56.539063 72057594054705152 storage/engine/rocksdb.go:380  opening rocksdb instance at "/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data"
+I170916 09:07:56.547022 72057594054705152 server/config.go:474  [n?] 1 storage engine initialized
+I170916 09:07:56.547041 72057594054705152 server/config.go:477  [n?] RocksDB cache size: 2.0 GiB
+I170916 09:07:56.547047 72057594054705152 server/config.go:477  [n?] store 0: RocksDB, max size 0 B, max open file limit 9984
+I170916 09:07:56.553579 72057594054705152 server/node.go:454  [n?] store [n0,s0] not bootstrapped
+I170916 09:07:56.572155 72057594054705152 server/node.go:389  [n?] **** cluster 23f76f30-bd56-48f4-b300-a8ad32372f18 has been created
+I170916 09:07:56.572170 72057594054705152 server/node.go:390  [n?] **** add additional nodes by specifying --join=v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257
+I170916 09:07:56.573504 72057594054705152 storage/store.go:1253  [n1] [n1,s1]: failed initial metrics computation: [n1,s1]: system config not yet available
+I170916 09:07:56.573712 72057594054705152 server/node.go:467  [n1] initialized store [n1,s1]: {Capacity:120124866560 Available:18403176448 RangeCount:1 LeaseCount:0}
+I170916 09:07:56.574086 72057594054705152 server/node.go:351  [n1] node ID 1 initialized
+I170916 09:07:56.574537 72057594054705152 gossip/gossip.go:297  [n1] NodeDescriptor set to node_id:1 address:<network_field:"tcp" address_field:"v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257" > attrs:<> locality:<> 
+I170916 09:07:56.575476 72057594054705152 storage/stores.go:296  [n1] read 0 node addresses from persistent storage
+I170916 09:07:56.575928 72057594054705152 server/node.go:608  [n1] connecting to gossip network to verify cluster ID...
+I170916 09:07:56.575961 72057594054705152 server/node.go:633  [n1] node connected via gossip and verified as part of cluster "23f76f30-bd56-48f4-b300-a8ad32372f18"
+I170916 09:07:56.576103 72057594054705152 server/node.go:405  [n1] node=1: started with [[]=/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data] engine(s) and attributes []
+I170916 09:07:56.577891 storage/split_queue.go:93  [split,n1,s1,r1/1:/M{in-ax}] splitting at key /System/""
+I170916 09:07:56.578482 72057594054705152 sql/executor.go:338  [n1] creating distSQLPlanner with address {tcp v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257}
+I170916 09:07:56.582431 storage/replica_command.go:2669  [split,n1,s1,r1/1:/M{in-ax}] initiating a split of this range at key /System/"" [r2]
+I170916 09:07:56.595110 72057594054705152 server/server.go:735  [n1] starting http server at v1020-wn-0-19.campus-dynamic.uwaterloo.ca:8081
+I170916 09:07:56.595135 72057594054705152 server/server.go:736  [n1] starting grpc/postgres server at v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257
+I170916 09:07:56.595148 72057594054705152 server/server.go:737  [n1] advertising CockroachDB node at v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257
+I170916 09:07:56.606690 16777216 storage/split_queue.go:93  [split,n1,s1,r2/1:/{System/-Max}] splitting at key /System/tsd
+I170916 09:07:56.606732 16777216 storage/replica_command.go:2669  [split,n1,s1,r2/1:/{System/-Max}] initiating a split of this range at key /System/tsd [r3]
+I170916 09:07:56.610281 72057594054705152 sql/event_log.go:96  [n1] Event: "alter_table", target: 12, info: {TableName:eventlog Statement:ALTER TABLE system.eventlog ALTER COLUMN uniqueid SET DEFAULT uuid_v4() User:node MutationID:0 CascadeDroppedViews:[]}
+I170916 09:07:56.611841 16777216 storage/split_queue.go:93  [split,n1,s1,r3/1:/{System/tsd-Max}] splitting at key /System/"tse"
+I170916 09:07:56.611866 16777216 storage/replica_command.go:2669  [split,n1,s1,r3/1:/{System/tsd-Max}] initiating a split of this range at key /System/"tse" [r4]
+I170916 09:07:56.620154 16777216 storage/split_queue.go:93  [split,n1,s1,r4/1:/{System/tse-Max}] splitting at key /Table/0/0
+I170916 09:07:56.620178 16777216 storage/replica_command.go:2669  [split,n1,s1,r4/1:/{System/tse-Max}] initiating a split of this range at key /Table/0 [r5]
+I170916 09:07:56.620645 72057594054705152 sql/lease.go:371  [n1] publish: descID=12 (eventlog) version=2 mtime=2017-09-16 09:07:56.620599577 -0400 EDT
+I170916 09:07:56.625194 16777216 storage/split_queue.go:93  [split,n1,s1,r5/1:/{Table/0-Max}] splitting at key /Table/11/0
+I170916 09:07:56.625239 16777216 storage/replica_command.go:2669  [split,n1,s1,r5/1:/{Table/0-Max}] initiating a split of this range at key /Table/11 [r6]
+I170916 09:07:56.630776 16777216 storage/split_queue.go:93  [split,n1,s1,r6/1:/{Table/11-Max}] splitting at key /Table/12/0
+I170916 09:07:56.630799 16777216 storage/replica_command.go:2669  [split,n1,s1,r6/1:/{Table/11-Max}] initiating a split of this range at key /Table/12 [r7]
+I170916 09:07:56.633466 72057594054705152 server/server.go:847  [n1] done ensuring all necessary migrations have run
+I170916 09:07:56.633486 72057594054705152 server/server.go:849  [n1] serving sql connections
+I170916 09:07:56.633950 72057594054705152 cli/start.go:411  node startup completed:
+CockroachDB node starting at 2017-09-16 09:07:56.633877678 -0400 EDT m=+0.240374737
+build:      CCL v1.0.6 @ 2017/09/15 13:34:40 (go1.9)
+admin:      http://v1020-wn-0-19.campus-dynamic.uwaterloo.ca:8081
+sql:        postgresql://root@v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257?sslmode=disable
+logs:       /Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data/logs
+store[0]:   path=/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data
+status:     initialized new cluster
+clusterID:  23f76f30-bd56-48f4-b300-a8ad32372f18
+nodeID:     1
+I170916 09:07:56.635521 16777216 storage/split_queue.go:93  [split,n1,s1,r7/1:/{Table/12-Max}] splitting at key /Table/13/0
+I170916 09:07:56.635544 16777216 storage/replica_command.go:2669  [split,n1,s1,r7/1:/{Table/12-Max}] initiating a split of this range at key /Table/13 [r8]
+I170916 09:07:56.637473 72057594037927936 sql/event_log.go:96  [n1] Event: "node_join", target: 1, info: {Descriptor:{NodeID:1 Address:{NetworkField:tcp AddressField:v1020-wn-0-19.campus-dynamic.uwaterloo.ca:26257} Attrs: Locality:} ClusterID:23f76f30-bd56-48f4-b300-a8ad32372f18 StartedAt:1505567276575964164 LastUp:1505567276575964164}
+I170916 09:07:56.641600 16777216 storage/split_queue.go:93  [split,n1,s1,r8/1:/{Table/13-Max}] splitting at key /Table/14/0
+I170916 09:07:56.641626 16777216 storage/replica_command.go:2669  [split,n1,s1,r8/1:/{Table/13-Max}] initiating a split of this range at key /Table/14 [r9]
+I170916 09:07:56.645446 16777216 storage/split_queue.go:93  [split,n1,s1,r9/1:/{Table/14-Max}] splitting at key /Table/15/0
+I170916 09:07:56.645467 16777216 storage/replica_command.go:2669  [split,n1,s1,r9/1:/{Table/14-Max}] initiating a split of this range at key /Table/15 [r10]
+W170916 09:08:06.577579 72057594054705152 server/status/runtime.go:184  [n1] unable to get file descriptor usage (will not try again): not implemented on darwin
+I170916 09:08:06.577989 72057594054705152 storage/store.go:4034  [n1,s1] sstables (read amplification = 0):
+I170916 09:08:06.579138 72057594054705152 server/status/runtime.go:221  [n1] runtime stats: 47 MiB RSS, 121 goroutines, 10 MiB/3.8 MiB/22 MiB GO alloc/idle/total, 5.2 MiB/8.4 MiB CGO alloc/total, 0.00cgo/sec, 0.00/0.00 %(u/s)time, 0.00 %gc (8x)
+I170916 09:08:06.607286 72057594054705152 storage/replica_proposal.go:415  [n1,s1,r3/1:/System/ts{d-e}] new range lease repl=(n1,s1):1 start=0.000000000,0 epo=1 pro=1505567286.606626627,0 following repl=(n1,s1):1 start=0.000000000,0 exp=1505567285.572753546,0 pro=1505567276.573619416,0
+I170916 09:08:16.578981 72057594054705152 server/status/runtime.go:221  [n1] runtime stats: 50 MiB RSS, 121 goroutines, 16 MiB/288 KiB/25 MiB GO alloc/idle/total, 5.3 MiB/8.8 MiB CGO alloc/total, 64.49cgo/sec, 0.01/0.00 %(u/s)time, 0.00 %gc (0x)
+I170916 09:08:26.579419 72057594054705152 server/status/runtime.go:221  [n1] runtime stats: 52 MiB RSS, 121 goroutines, 13 MiB/5.1 MiB/27 MiB GO alloc/idle/total, 5.4 MiB/9.1 MiB CGO alloc/total, 59.00cgo/sec, 0.01/0.00 %(u/s)time, 0.00 %gc (1x)
+I170916 09:08:36.578636 72057594054705152 server/status/runtime.go:221  [n1] runtime stats: 53 MiB RSS, 121 goroutines, 11 MiB/7.2 MiB/27 MiB GO alloc/idle/total, 5.4 MiB/9.3 MiB CGO alloc/total, 61.20cgo/sec, 0.01/0.00 %(u/s)time, 0.00 %gc (1x)
+I170916 09:08:41.968250 72057594054705152 cli/start.go:446  received signal 'interrupt'
+I170916 09:08:41.968399 72057594054705152 cli/start.go:471  initiating graceful shutdown of server
+I170916 09:08:41.970582 72057594037927936 storage/engine/rocksdb.go:447  closing rocksdb instance at "/Users/Brandon/Desktop/Projects/theorm-eter/cockroach-data"
+I170916 09:08:41.971200 72057594054705152 vendor/google.golang.org/grpc/transport/http2_server.go:323  transport: http2Server.HandleStreams failed to read frame: read tcp 10.20.0.19:26257->10.20.0.19:59197: use of closed network connection
+I170916 09:08:41.978681 72057594054705152 cli/start.go:503  server drained and shutdown completed
+E170916 09:08:41.978878 72057594054705152 cli/error.go:68  interrupted
+Error: interrupted

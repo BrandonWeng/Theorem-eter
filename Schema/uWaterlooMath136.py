@@ -1,22 +1,17 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-import sqlalchemy.orm
-
-app = Flask(__name__)
-app.config.from_pyfile('../config/cockroach_config.py')
-db = SQLAlchemy(app)
-sessionMaker = sqlalchemy.orm.sessionmaker(db.engine)
+from __future__ import print_function
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 
 
-class uWaterlooMath136(db.Model):
-    __tablename__ = 'uWaterlooMath136'
-    id = db.Column('keyword_id', db.Integer, primary_key=True)
-    keyWord = db.column(db.String())
-    fileNames = db.column(db.String())
+#T The uWaterlooMath136 table in textbooks
+class uWaterlooMath136(declarative_base()):
+    __tablename__ = 'uwaterloomath136'
 
-    def __init__(self, keyWord, fileNames):
+    keyWord = Column(String,primary_key=True)
+    fileNames = Column(String)
+    score = Column(Integer)
+
+    def __init__(self, keyWord, fileNames, score):
         self.keyWord = keyWord
         self.fileNames = fileNames
-
-
-
+        self.score = score

@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, redirect, url_for,flash
+from flask import Flask, request, redirect, url_for,flash, jsonify, send_from_directory, abort
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'img/'
@@ -29,18 +29,35 @@ def allowed_file(filename):
 def upload_image():
     if request.method == 'POST':
 
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            flash('No file part')
+            return "FAILED no file found"
+
         file = request.files['file']
+        filename = secure_filename(file.filename)
+
+        # if user does not select file, browser also
+        # submit a empty part without filename
+        if file.filename == '':
+            flash('No selected file')
+            return "FAILED : file name is empty"
 
         if file and allowed_file(file.filename):
-            print("SAVING FILE")
-            filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            return "Success!"
-        else:
-            print(request.form)
+            return jsonify({'upload': True, 'name': filename})
 
-    return 'Failed'
+    return jsonify({'upload': False, 'name': filename})
 
+
+@app.route('/get/picture/<string:name>', methods=['GET'])
+def send_pics(name):
+    pics = open("./files/" + name)
+    if pics:
+        return send_from_directory(app.config['UPLOAD_FOLDER'],
+                                       name)
+
+    abort(404)
 
 if __name__ == "__main__":
     app.run()

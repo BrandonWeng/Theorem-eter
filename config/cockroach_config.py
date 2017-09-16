@@ -1,1 +1,1 @@
-SQLALCHEMY_DATABASE_URI = 'postgresql://root@localhost:26257'
+SQLALCHEMY_DATABASE_URI = 'cockroachdb://root@localhost:26257/textbooks'

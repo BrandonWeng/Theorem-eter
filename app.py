@@ -10,7 +10,6 @@ def home():
 
 @app.route('/test_post', methods=['GET', 'POST'])
 def test_post():
-    print(request.json)
     if request.method == 'GET':
         return "GET"
     else:

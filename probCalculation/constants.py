@@ -49,7 +49,7 @@ frequency_weights = {'subspace': 0.015651438240270727, 'scalar': 0.0184010152284
  'standard': 0.016074450084602367, 'cofactor': 0.0071912013536379014}
 
 #OCR
-api_key = "c62edc075488957"
+api_key = "05f3b98bf388957"
 lang = 'eng'
 text = "ParsedText"
 res = "ParsedResults"

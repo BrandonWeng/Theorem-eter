@@ -1,6 +1,9 @@
-import constants as const
-import requests
 import json
+
+import requests
+
+from probCalculation import constants as const
+
 
 def scan_file(filename, overlay=False, api_key=const.api_key, language=const.lang):
     payload = {'isOverlayRequired': overlay,

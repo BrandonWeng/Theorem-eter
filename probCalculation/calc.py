@@ -1,4 +1,5 @@
-import constants as const
+from probCalculation import constants as const
+
 
 #takes in an array of strings and will return the relative score
 def score_calc(data):

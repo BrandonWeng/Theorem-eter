@@ -25,6 +25,9 @@ class uWaterlooMath136ScoreDAO(object):
         result = self.session.execute(text(textQuery), param)
         return result
 
+    def closestScores(self,score):
+        result = self.session.execute("SELECT filename FROM textbooks.uwaterloomath136score ORDER BY abs(:score - score) ASC LIMIT 5;",{"score":score})
+        return result
 
 if __name__ == "__main__":
     math136ScoreDAO = uWaterlooMath136ScoreDAO()

@@ -1,5 +1,9 @@
-import calc,pickle
+import pickle
+
 import constants as const
+
+from probCalculation import calc
+
 
 # calls on other functions and returns the theorem/def name with the corresponding value of the calculated frequence score
 # returns a dictionary with the theorem/def name as key and score as value.

@@ -1,5 +1,5 @@
 #OCR
-api_key = "223a2f0d0d88957"
+api_key = "05f3b98bf388957"
 lang = 'eng'
 text = "ParsedText"
 res = "ParsedResults"

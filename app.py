@@ -52,11 +52,7 @@ def upload_image():
 
             #TODO : result will be determined based on the list of keywords hanyu/mike provides
             result = getEverting(app.config['UPLOAD_FOLDER'] + filename)
-            #{
-             #    'basis': 'uWaterlooMath136_1,uWaterlooMath136_2',
-            #     'angular': 'uWaterlooMath136_3,uWaterlooMath136_4'
-            # }
-
+  
             return jsonify({'upload': True, 'name': filename, 'result': result})
 
     return jsonify({'upload': False})
@@ -64,9 +60,9 @@ def upload_image():
 
 @app.route('/get/picture/<string:name>', methods=['GET'])
 def send_pics(name):
-    pics = open("img/" + name)
+    pics = open("probCalculation/pics/" + name)
     if pics:
-        return send_from_directory(app.config['UPLOAD_FOLDER'], name)
+        return send_from_directory("probCalculation/pics/", name)
 
     abort(404)
 

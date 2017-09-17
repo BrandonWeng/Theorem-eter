@@ -1,8 +1,8 @@
-import constants as const
-import pickle
-import theorem
-import calc
 import os
+import pickle
+
+import constants as const
+
 
 # resets and calculates the values of the frequency based weight function of key terms
 # takes in all the OCR scanned files and processes it, retuning the newly weighed terms

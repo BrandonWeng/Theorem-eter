@@ -1,4 +1,5 @@
-import glob, os, ocr
+from probCalculation import ocr
+
 defname1 = "defBody"
 defname2 = "defHead"
 tname1= "theoremBody"

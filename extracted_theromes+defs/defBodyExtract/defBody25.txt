@@ -1,0 +1,2 @@
+A set of m linear equations in the same variables ... , is called a system of m 
+linear equations in n variables. 

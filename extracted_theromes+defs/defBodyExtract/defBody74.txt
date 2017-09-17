@@ -1,0 +1,4 @@
+) be a basis for R" and let L : R" R" be a linear operator. The 
+L.etß 
+g-matrix of L is defined to be 
+It satisfies = 

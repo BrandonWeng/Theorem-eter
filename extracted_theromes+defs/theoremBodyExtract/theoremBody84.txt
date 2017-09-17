@@ -1,0 +1,7 @@
+If A and B are n x n matrices such that P-IAP 
+(1) rank A = rank B 
+(2) detA = det B 
+(3) trA trB where trA is defined by trA 
+matrix. 
+B for some invertible matrix P, then 
+and is called the trace of a 

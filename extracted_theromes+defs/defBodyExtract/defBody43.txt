@@ -1,0 +1,4 @@
+The n x n identity matrix, denoted by I or In, is the matrix such that (Ih = 
+1 i n and (I)JJ — 0 whenever i j. In particular, 
+41 
+1 for 

@@ -1,0 +1,8 @@
+If A, B, and C are matrices of the correct size so that the required products are defined, 
+and t e R, then 
+(1) 
+(2) t(AB) (tA)B A(tB) 
+(3) 
+A(BC) - (AB)C 
+(AB)T = WAT 
+(4) 

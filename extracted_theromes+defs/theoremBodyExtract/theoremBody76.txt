@@ -1,0 +1,2 @@
+If A is an n x n matrix and E is an n x n elementary matrix, then 
+detEA = det E detA 

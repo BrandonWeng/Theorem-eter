@@ -1,0 +1,1 @@
+If A is an m X n matrix with m < n, then A cannot have a left inverse. 

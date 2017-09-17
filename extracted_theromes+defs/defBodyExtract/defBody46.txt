@@ -1,0 +1,3 @@
+Let L : R" —+ R'" be a linear mapping. The matrix [L] [L(ÜI) 
+the standard matrix of L. It satisfies L(f) = [L]F. 
+L(Ün)] is called 

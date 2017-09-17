@@ -1,0 +1,2 @@
+If an n x n matrix A is upper triangular or lower triangular, then 
+detA = •••ann 

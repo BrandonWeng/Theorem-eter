@@ -1,0 +1,2 @@
+The solution set of a homogeneous system of m linear equations in n variables is a 
+subspace of Rn. 

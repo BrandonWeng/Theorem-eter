@@ -1,0 +1,7 @@
+If A, G Mmxn(R) and c, d R, then 
+V4 
+VIO 
+There exists a matrix On, n G Mmxn(R), such that A + = A for all A. 
+There exists a matrix (—A) e Mmxn(lR), with the property that A + (—A) = O 
+In particular, (—Ä) is defined by (— 
+c(dA) = (cd)A 

@@ -1,0 +1,2 @@
+Let A be an m X n matrix. The row space of A is the subspace of R" defined by 
+Row(A) = {A T Y e I d e 

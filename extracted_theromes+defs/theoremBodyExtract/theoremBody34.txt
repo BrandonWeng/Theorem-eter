@@ -1,0 +1,1 @@
+If L : 12'1 —+ R'" is a linear mapping, then Ker(L) is a subspace of R". 

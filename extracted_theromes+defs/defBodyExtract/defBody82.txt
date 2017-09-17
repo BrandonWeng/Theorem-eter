@@ -1,0 +1,2 @@
+An n x n matrix A is said to be diagonalizable if A is similar to a diagonal matrix D. 
+If m IAP D, then we say that P diagonalizes A. 

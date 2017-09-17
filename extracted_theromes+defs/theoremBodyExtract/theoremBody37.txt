@@ -1,0 +1,1 @@
+Let A be an m x n matrix. Then, Col(A) = if and only if rank(A) = m. 

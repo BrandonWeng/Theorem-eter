@@ -1,0 +1,1 @@
+If a set of vectors {131, ... , 13k) contains the zero vector, then it is linearly dependent. 

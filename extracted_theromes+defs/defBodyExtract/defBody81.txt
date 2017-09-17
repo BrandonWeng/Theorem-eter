@@ -1,0 +1,6 @@
+Let A be an n x n matrix with eigenvalue RI. The algebraic multiplicity of Ill, 
+denoted an, , is the number of times that A1 is a root of the characteristic polynomial 
+= (A — where CI(AI) O, then 
+Cu). That is, if caj 
+= k. The 
+geometric multiplicity of A, denoted gal , is the dimension of its eigenspace. So, 

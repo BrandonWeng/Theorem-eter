@@ -1,0 +1,6 @@
+Let L and M . 
+• Rn —9 Rm be linear mappings and let c e R. We say that L 
+and M are equal if 
+L(f) M(f), for 
+We define L + M : and by 
+= cL(f) 

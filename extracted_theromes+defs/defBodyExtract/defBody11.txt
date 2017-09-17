@@ -1,0 +1,5 @@
+Let VI, 
+R" with 
+vector equation = + 
+, linearly independent. We call the set with 
+G R a k-flat in R" through B. 

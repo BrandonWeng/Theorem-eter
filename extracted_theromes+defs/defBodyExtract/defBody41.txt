@@ -1,0 +1,3 @@
+Let A = [a, 
+be an m X n matrix. For any F = 
+e R", we define A F by 

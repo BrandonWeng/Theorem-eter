@@ -1,0 +1,2 @@
+If A and B are invertible matrices and c e R with c O, then 
+(2) (AT) 

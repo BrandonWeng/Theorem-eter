@@ -1,0 +1,6 @@
+A set of vectors ... , in a vector space V is said to be linearly dependent if 
+there exist coefficients c! , ... , Ck not all zero such that 
+. , 13k} is said to be linearly independent if the only solution to 
+A set of vectors 
+is the trivial solution c 1 — — 
+- -Ck=o. 

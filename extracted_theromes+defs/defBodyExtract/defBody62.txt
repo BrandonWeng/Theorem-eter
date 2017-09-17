@@ -1,0 +1,4 @@
+Let B = , 
+, ... be a basis for a vector space V. If F = + + bnf„, then 
+, bn are called the B-coordinates of 17, and we define the ß-coordinate vector 
+(also called the coordinate vector of with respect to B) by 

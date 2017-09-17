@@ -1,0 +1,2 @@
+If V is a vector space with basis B = 031, , then for any e V and s, t e 
+we have 

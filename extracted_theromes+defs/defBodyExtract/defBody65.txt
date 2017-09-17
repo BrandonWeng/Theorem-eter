@@ -1,0 +1,1 @@
+An n X n matrix is called a square matrix. 

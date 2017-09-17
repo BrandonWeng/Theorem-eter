@@ -1,0 +1,2 @@
+Let L : R '7 12m and M : RP be linear mappings. The composition of M and 
+L is the function M o L : R" —+ RP defined by 

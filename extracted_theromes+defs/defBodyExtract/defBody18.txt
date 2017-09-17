@@ -1,0 +1,1 @@
+A set of vectors {131, ... , in R" is called an orthogonal set if Fi = 0 for all i j• 

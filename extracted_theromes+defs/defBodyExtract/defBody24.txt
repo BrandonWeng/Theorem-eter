@@ -1,0 +1,5 @@
+An equation in n variables (unknowns) x, , 
+, that can be written in the form 
++ • • • -F anxn = b 
+where , an, b are constants is called a linear equation. The constants ai are 
+called the coefficients of the equation and b is called the right-hand side. 

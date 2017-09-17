@@ -1,0 +1,5 @@
+Letß=lfi,..., 
+by 
+n.) be a set of vectors in a vector space V. We define the span of g 
+Spanß = + + • • • + CkÜk I 
+We say that Spang is spanned by B and that B is a spanning set for Span B. 

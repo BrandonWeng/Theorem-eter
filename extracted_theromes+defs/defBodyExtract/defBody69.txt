@@ -1,0 +1,3 @@
+Let A be an n x n matrix with n 2 2. Let A(i, j) be the (n — 1) x (n — 1) matrix obtained 
+from A by deleting the i-th row and the j-th column. The cofactor of is 
+= (-1)i+j detA(i, j) 

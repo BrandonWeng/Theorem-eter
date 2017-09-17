@@ -1,0 +1,7 @@
+a 
+Let A — 
+c 
+b 
+. The determinant of A is 
+d 
+detA = ad — bc 

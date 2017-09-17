@@ -1,0 +1,7 @@
+(System-Rank Theorem) 
+Let A be the coefficient matrix of a system of m linear equations in n unknowns 
+(l) If the rank of A is less than the rank of the augmented matrix A I B l, then the 
+system is inconsistent. 
+(2) If the system A I b is consistent, then the system contains (n — rank A) free 
+variables (parameters). 
+(3) rank A = m if and only if the system A lb is consistent for every b € 

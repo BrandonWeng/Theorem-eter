@@ -1,0 +1,4 @@
+Every linear mapping L : R.n —Y R"' can be represented as a matrix mapping with 
+matrix whose i-th column is the image of the i-th standard basis vector of under L 
+for all I i n. That is, = [L]dwhere 
+ILI = 

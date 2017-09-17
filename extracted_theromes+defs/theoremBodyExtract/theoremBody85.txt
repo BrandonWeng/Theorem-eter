@@ -1,0 +1,1 @@
+A scalar R is an eigenvalue of an n X n matrix A if and only if C(A) = O. 

@@ -1,0 +1,2 @@
+An n X n matrix E is called an elementary matrix if it can be obtained from the n x n 
+identity matrix by performing exactly one elementary row operation. 

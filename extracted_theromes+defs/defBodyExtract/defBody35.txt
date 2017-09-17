@@ -1,0 +1,1 @@
+The solution set of a homogeneous system is called the solution space of the system. 

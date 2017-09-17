@@ -1,0 +1,1 @@
+If E is an m x m elementary matrix, then ET is an elementary matrix. 

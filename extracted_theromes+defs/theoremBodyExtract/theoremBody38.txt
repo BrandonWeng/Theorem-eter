@@ -1,0 +1,3 @@
+If L, M : R.n —i IR.m are linear mappings and c e R, then L + M : Rn —i and 
+CL : R" —+ Rm are linear mappings. Moreover, we have 
+[L + M] = [L] + [M] and [cL] = 

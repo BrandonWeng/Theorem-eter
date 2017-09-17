@@ -1,0 +1,2 @@
+If B and C are bases for an n-dimensional vector space V, then the change of coordi- 
+nate matrices CPS and BPC satisfy 

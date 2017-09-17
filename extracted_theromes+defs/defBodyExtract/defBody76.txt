@@ -1,0 +1,2 @@
+If A and B be n x n matrices such that P-IAP = B for some invertible matrix P, then 
+A is said to be similar to B. 

@@ -1,0 +1,2 @@
+If A and B are m x n matrices and c e R, then 
+(3) (CAY = CAT 

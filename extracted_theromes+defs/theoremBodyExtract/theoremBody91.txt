@@ -1,0 +1,5 @@
+If A is an n x n matrix with distinct eigenvalues RI, . , and 
+= 113,1,.. 
+I is a basis for the eigenspace of R, 
+forl k, thenßl u ß2 IJ 
+• U 3k is a linearly independent set. 

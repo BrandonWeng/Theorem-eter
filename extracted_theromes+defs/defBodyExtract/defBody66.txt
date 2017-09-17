@@ -1,0 +1,2 @@
+Let A be an n x n matrix. If B is a matrix such that AB = I = BII, then B is called the 
+inverse of A. We write B = A-I and we say that A is invertible. 

@@ -1,0 +1,2 @@
+Let A be an m x n matrix. The left nullspace of A is the subspace of r defined by 
+Null(AT) = I 

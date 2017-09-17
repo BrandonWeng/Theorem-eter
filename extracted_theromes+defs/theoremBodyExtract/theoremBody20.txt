@@ -1,0 +1,6 @@
+(Solution Theorem) 
+Let [A I be a consistent system of m linear equations in n variables with RREF 
+[R d]. If rank A = k < n, then a vector equation of the solution set of [A I has the 
+form 
+where R" and {131, . . , is a linearly independent set in R". In particular, the 
+solution setof A I b] is ann k-flat in R". 

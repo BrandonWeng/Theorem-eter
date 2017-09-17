@@ -1,0 +1,3 @@
+A set of vectors WI, ... , 11) in R" is linearly dependent if and only if 
+e Span{131, 
+. , 11} for some i, 1 S i S k. 

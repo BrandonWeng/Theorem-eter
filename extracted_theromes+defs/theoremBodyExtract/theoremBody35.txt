@@ -1,0 +1,2 @@
+Let L : JR'I R'" be a linear mapping with standard matrix Then, G Ker(L) if 
+and only if 6. 

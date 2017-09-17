@@ -1,0 +1,2 @@
+If A is an m x n matrix and E is an m x m elementary matrix, then 
+rank(EA) = rank A 

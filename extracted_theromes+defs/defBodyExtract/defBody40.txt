@@ -1,0 +1,2 @@
+Let A be an m x n matrix whose rows are denoted äiT for 1 i m. For any 
+we define AR by 

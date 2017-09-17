@@ -1,0 +1,3 @@
+If L : R" k"' and M : R"' RP are linear mappings, then M o L : R" R!' is a 
+linear mapping and 
+[Mo Ll = [MILL] 

@@ -1,0 +1,4 @@
+If A is an m x n matrix and f : R" —+ Rm is defined by f (R) 
+r, ye R" and b, c e R we have 
+f(bÆ+ = bf(f) + 
+= Ad, then for all 

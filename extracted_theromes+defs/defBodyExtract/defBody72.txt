@@ -1,0 +1,3 @@
+Let A be an n x n matrix. The cofactor matrix, cof A, of A is the matrix whose ij-th 
+entry is the ij-th cofactor of A. That is, 
+(cof A) 

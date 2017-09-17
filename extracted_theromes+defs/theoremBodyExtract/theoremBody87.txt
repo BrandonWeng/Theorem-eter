@@ -1,0 +1,2 @@
+Let A and B be similar matrices, then A and B have the same characteristic polyno- 
+mial, and hence the same eigenvalues. 

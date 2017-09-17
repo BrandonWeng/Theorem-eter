@@ -1,0 +1,2 @@
+If Ro : —i is a rotation with rotation matrix A = [Rol, then the columns of A 
+are orthogonal unit vectors. 

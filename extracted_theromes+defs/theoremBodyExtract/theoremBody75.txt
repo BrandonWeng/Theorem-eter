@@ -1,0 +1,2 @@
+If A is an n x n matrix and B is the matrix obtained from A by adding a multiple of 
+one row of A to another row, then detB = detA. 

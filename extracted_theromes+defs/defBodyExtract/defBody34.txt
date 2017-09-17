@@ -1,0 +1,2 @@
+A system of linear equations is said to be a homogeneous system if the right-hand 
+side only contains zeros. That is, it has the form [A I (j l. 

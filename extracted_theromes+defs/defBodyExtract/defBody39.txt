@@ -1,0 +1,2 @@
+The transpose of an m x n matrix A is the n x m matrix AT whose ij-th entry is the 
+ji-lh entry of A. That is, 

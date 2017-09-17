@@ -1,0 +1,3 @@
+Let A be an n x n matrix. The characteristic polynomial of A is the n-th degree 
+polynomial 
+C(R) = det(A - M) 

@@ -1,0 +1,10 @@
+If the system of linear equations 
+all Xl a12X2 
+a21X1 -+- C122X2 + 
+am 1 X I -F am2X2 + 
+• • • + = bl 
+has two distinct solutions s? = 
+solution for each c e R. 
+and = 
+then = 
+— is a distinct 

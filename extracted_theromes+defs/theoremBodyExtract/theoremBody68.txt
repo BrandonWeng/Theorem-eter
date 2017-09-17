@@ -1,0 +1,2 @@
+If A is an n x n invertible matrix, then A and A-I can be written as a product of 
+elementary matrices. 

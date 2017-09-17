@@ -1,0 +1,2 @@
+If A is an n x n matrix with eigenpairs (A1, €1), (22, 132), , (1k, 13k) where Ai A j for 
+i j, then {VI, , 13k} is linearly independent. 

@@ -1,0 +1,2 @@
+If A is an n x n matrix with distinct eigenvalues RI, , 2k, then A is diagonalizable 
+if and only if ga, = all for I i k. 

@@ -1,0 +1,1 @@
+If E is an elementary matrix, then E is invertible and F„-l is also an elementary matrix. 

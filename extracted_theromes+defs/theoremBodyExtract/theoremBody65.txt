@@ -1,0 +1,3 @@
+If A is an m X n matrix and E is the m X m elementary matrix corresponding to the row 
+operation Ri e R j, for i j, then EA is the matrix obtained from A by performing 
+the row operation Ri e R) on A. 

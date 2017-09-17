@@ -1,0 +1,8 @@
+A subset S of Rn is called a subspace of R" if for every F, j, e S and c, d e R we 
+have 
+S4 
+SIO 
+R+Y€S 
+There exists a vector (j e S such that F + (j — F for all F e S 
+There exists a vector e such that + = (j 
+c(dF) — (cd)Æ 

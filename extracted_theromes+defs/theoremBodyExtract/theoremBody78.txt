@@ -1,0 +1,1 @@
+If A and B are n x n matrices, then det(AB) = detA det B. 

@@ -8,8 +8,9 @@ app = Flask(__name__)
 app.config["SECRET_KEY"] = "team wave HTN"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SESSION_TYPE'] = 'filesystem'
-
 app.debug = True
+
+
 @app.route('/')
 def home():
     return 'Team Wave HTN 2017 robot.txt??'

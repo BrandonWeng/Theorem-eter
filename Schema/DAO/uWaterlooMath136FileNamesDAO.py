@@ -1,5 +1,5 @@
 from __future__ import print_function
-from sqlalchemy import create_engine, Column, Integer
+from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from config import cockroach_config
@@ -16,8 +16,8 @@ class uWaterlooMath136FileNamesDAO(object):
         self.session = self.Session()
         self.schema = uWaterlooMath136FileNames
 
-    def insert(self, keyWord, fileNames, score):
-        newKeyWord = self.schema.uWaterlooMath136(keyWord, fileNames, score)
+    def insert(self, keyWord, fileNames):
+        newKeyWord = self.schema.uWaterlooMath136FileNames(keyWord, fileNames)
         self.session.add(newKeyWord)
         self.session.commit()
 
@@ -27,16 +27,14 @@ class uWaterlooMath136FileNamesDAO(object):
 
 
 if __name__ == "__main__":
-    math136DAO = uWaterlooMath136DAO()
-    #math136DAO.query("DROP TABLE textbooks.uwaterloomath136")
-    math136DAO.query("CREATE TABLE textbooks.uwaterloomath136 (keyWord STRING, fileNames STRING, score INTEGER);")
-    math136DAO.query("INSERT INTO textbooks.uwaterloomath136 VALUES ('basis', 'uWaterlooMath136_1,uWaterlooMath136_2',12), ('angular', 'uWaterlooMath136_3,uWaterlooMath136_4',99);")
+    math136FileNameDAO = uWaterlooMath136FileNamesDAO()
+    math136FileNameDAO.query("INSERT INTO textbooks.uwaterloomath136filenames VALUES ('basis', 'uWaterlooMath136_1,uWaterlooMath136_2'), ('angular', 'uWaterlooMath136_3,uWaterlooMath136_4');")
 
-    for keyword in math136DAO.query("SELECT * from textbooks.uwaterloomath136;"):
-        print(keyword.keyword, keyword.filenames, keyword.score)
+    for keyword in math136FileNameDAO.query("SELECT * from textbooks.uwaterloomath136filenames;"):
+        print(keyword.keyword, keyword.filenames)
     print("-------------------")
 
-    math136DAO.insert("TEST","TEST2,TEST3,TEST4", 21)
+    math136FileNameDAO.insert("TEST","TEST2,TEST3,TEST4")
 
-    for keyword in math136DAO.query("SELECT * from textbooks.uwaterloomath136;"):
-        print(keyword.keyword, keyword.filenames, keyword.score)
+    for keyword in math136FileNameDAO.query("SELECT * from textbooks.uwaterloomath136filenames;"):
+        print(keyword.keyword, keyword.filenames)

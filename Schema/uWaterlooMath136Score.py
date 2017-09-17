@@ -4,12 +4,12 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 #T The uWaterlooMath136 table in textbooks
-class uWaterlooMath136FileNames(declarative_base()):
-    __tablename__ = 'uwaterloomath136filenames'
+class uWaterlooMath136Score(declarative_base()):
+    __tablename__ = 'uwaterloomath136score'
 
-    keyWord = Column(String, primary_key=True)
-    fileNames = Column(String)
+    fileName = Column(String, primary_key=True)
+    score = Column(Integer)
 
-    def __init__(self, keyWord, fileNames, score):
-        self.keyWord = keyWord
-        self.fileNames = fileNames
+    def __init__(self, fileName, score):
+        self.fileName = fileName
+        self.score = score

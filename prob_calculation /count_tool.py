@@ -1,0 +1,10 @@
+#updates the counter of frequencies and normalizes it
+
+dict = {'span': 3, 'multiplicity': 2, 'solution': 11, 'side': 0, 'matrice': 0, 'set': 19, 'adjugate': 1, 'equations': 7, 'directed': 0, 'diagonalizable': 2, 'unit': 2, 'mapping': 11, 'expansion': 2, 'triangular': 3, 'matrix': 65, 'algorithm': 0, 'hyperplane': 1, 'matrix-vector': 2, 'plane': 4, 'equation': 6, 'free': 2, 'linearly': 17, 'diagonalization': 0, 'vector': 27, 'composition': 1, 'right': 2, 'algebraic': 1, 'test': 0, 'cramers': 0, 'b-matrix': 0, 'rowspace': 0, 'trace': 1, 'system': 14, 'line': 2, 'cramer': 0, 'homogeneous': 3, 'projection': 3, 'column-space': 0, 'rule': 0, 'subspace': 10, 'geometric': 1, 'cross': 1, 'rotation': 2, 'fundamental': 0, 'rank': 12, 'reduced': 3, 'dependent': 5, 'elementary': 13, 'field': 0, 'cartesian': 0, 'infinite': 0, 'b-coordinates': 0, 'orthogonal': 3, 'reducing': 0, 'echelon': 3, 'eigenspace': 2, 'eigenvalues': 6, 'right-hand': 0, 'linear': 25, 'k-plane': 0, 'inner': 0, 'product': 3, 'kernel': 1, 'upper': 3, 'transpose': 1, 'combination': 3, 'normal': 1, 'trivial': 0, 'theorem': 0, 'determinant': 0, 'equal': 1, 'points': 0, 'coordinate': 0, 'inequality': 0, 'augmented': 3, 'eigenpair': 0, 'coefficients': 0, 'eigenvalue': 2, 'space': 16, 'mappings': 1, 'four': 0, 'lower': 2, 'standard': 6, 'vectors': 12, 'form': 6, 'range': 1, 'inconsistent': 0, 'characteristic': 2, 'invertible': 12, 'subspaces': 0, 'angle': 3, 'similar': 2, 'operator': 0, 'inverse': 2, 'length': 1, 'consistent': 4, 'block': 1, 'left': 3, 'multiplication': 6, 'perpendicular': 1, 'matrices': 10, 'diagonal': 2, 'R': 0, "cramer's": 0, 'coefficient': 2, 'variable': 1, 'polynomial': 1, 'row': 15, 'equivalent': 1, 'eigenvector': 0, 'cofactor': 4, 'basis': 13, 'skew-symmetric': 0, 'scalar': 6, 'dimension': 1, 'triangle': 0, 'norm': 0, 'dot': 1, 'nullspace': 3, 'operations': 2, 'independent': 7, 'identity': 3}
+num = sum(dict.values())
+print(num)
+for d in dict:
+    dict[d] = dict[d]/num
+
+print(dict)
+print(sum(dict.values()))

@@ -1,26 +1,34 @@
-terms = ['B-matrix', "Cramer's", 'I', 'II', 'Inconsistent',
- 'Invertible', 'Matrix', 'Of', 'Operator', 'Rule', 'Theorem', 'Vector',
- 'a', 'adjugate', 'algebraic', 'algorithm', 'angle', 'augmentai', 'basis',
- 'b-coordinates', 'block', 'characteristic', 'coefficient', 'coefficients',
- 'cofactor', 'columns-pace', 'combination', 'consistent', 'coordinate', 'cornpcsition',
- 'crcss', 'determinant', 'diagonal', 'diagonalizable',
- 'dimension', 'directed', 'dot', 'eigenpair',
- 'eigenspace', 'eigenvalue', 'eigenvector', 'elementary',
- 'elementuy', 'equation', 'equivalent', 'four', 'free',
- 'fundamental', 'gmmetric', 'homogeneous', 'hyperplane',
- 'identity', 'independent', 'invertible', 'inveræ', 'kerrEI',
- 'k•plane', 'left', 'length', 'line', 'linear', 'linearly', 'lower',
- 'mapping', 'mappings', 'matrix', 'matrix-vector', 'multiplication', 'multiplicity',
- 'norm', 'normal', 'nullspace', 'of', 'operaticns', 'orthogmal', 'orthogonal', 'parallelotope',
- 'perpendicular', 'plane', 'points', 'polynomial', 'product', 'row', 'set', 'subspaces', 'system',
- 'triangular', 'variable', 'vector', 'R', 'algorithm', 'basis', 'echelon', 'equation', 'equations',
-         'equivalent', 'form', 'inner', 'inverse', 'linear', 'matrix', 'of', 'over', 'product', 'range',
-         'rank', 'reducing', 'reducui', 'right', 'right-hand', 'rotation', 'row', 'rowspace', 'scalar',
-         'set', 'side', 'similar', 'skew-symmetric', 'solution', 'space', 'span', 'standard', 'subspace',
-         'system', 'test', 'trace', 'transpose', 'triangular', 'trivial', 'unit', 'upper', 'vector', 'vectors']
+#constants used for the process and various dependencies
 
-len_terms = 133
-print(len(terms))
+keyterm_weights = {'linear': 0.05307855626326964, 'coefficient': 0.004246284501061571, 'inconsistent': 0.0, 'free': 0.004246284501061571,
+ 'equal': 0.0021231422505307855, 'diagonalizable': 0.004246284501061571, 'multiplicity': 0.004246284501061571,
+ 'operations': 0.004246284501061571, 'unit': 0.004246284501061571, 'span': 0.006369426751592357, 'matrix-vector': 0.004246284501061571,
+ 'upper': 0.006369426751592357, 'points': 0.0, 'cross': 0.0021231422505307855, 'theorem': 0.0, 'rotation': 0.004246284501061571,
+ 'similar': 0.004246284501061571, 'hyperplane': 0.0021231422505307855, 'geometric': 0.0021231422505307855,
+ 'eigenspace': 0.004246284501061571, 'b-matrix': 0.0, 'infinite': 0.0, 'dimension': 0.0021231422505307855,
+ 'homogeneous': 0.006369426751592357, 'b-coordinates': 0.0, 'rank': 0.025477707006369428, 'vectors': 0.025477707006369428,
+ 'right': 0.004246284501061571, 'column-space': 0.0, 'eigenpair': 0.0, 'trace': 0.0021231422505307855, 'side': 0.0,
+ 'standard': 0.012738853503184714, 'mappings': 0.0021231422505307855, 'basis': 0.027600849256900213, 'solution': 0.02335456475583864,
+ 'rule': 0.0, 'equation': 0.012738853503184714, 'independent': 0.014861995753715499, 'orthogonal': 0.006369426751592357, 'cramer': 0.0,
+ 'skew-symmetric': 0.0, 'inequality': 0.0, 'composition': 0.0021231422505307855, 'cartesian': 0.0, 'trivial': 0.0,
+ 'length': 0.0021231422505307855, 'space': 0.03397027600849257, 'plane': 0.008492569002123142, 'equations': 0.014861995753715499,
+ 'triangle': 0.0, 'fundamental': 0.0, 'transpose': 0.0021231422505307855, 'block': 0.0021231422505307855,
+ 'echelon': 0.006369426751592357, 'row': 0.03184713375796178, 'algorithm': 0.0, 'identity': 0.006369426751592357,
+ 'set': 0.040339702760084924, 'inner': 0.0, 'subspace': 0.021231422505307854, 'reducing': 0.0, 'multiplication': 0.012738853503184714,
+ 'left': 0.006369426751592357, 'matrices': 0.021231422505307854, 'right-hand': 0.0, 'cramers': 0.0, 'augmented': 0.006369426751592357,
+ 'product': 0.006369426751592357, 'linearly': 0.036093418259023353, 'dependent': 0.010615711252653927, 'form': 0.012738853503184714,
+ 'rowspace': 0.0, 'angle': 0.006369426751592357, 'line': 0.004246284501061571, 'characteristic': 0.004246284501061571, 'four': 0.0,
+ 'matrice': 0.0, 'test': 0.0, 'directed': 0.0, 'diagonal': 0.004246284501061571, "cramer's": 0.0, 'vector': 0.05732484076433121,
+ 'norm': 0.0, 'adjugate': 0.0021231422505307855, 'range': 0.0021231422505307855, 'k-plane': 0.0, 'scalar': 0.012738853503184714,
+ 'equivalent': 0.0021231422505307855, 'elementary': 0.027600849256900213, 'variable': 0.0021231422505307855,
+ 'consistent': 0.008492569002123142, 'eigenvector': 0.0, 'nullspace': 0.006369426751592357, 'triangular': 0.006369426751592357,
+ 'coordinate': 0.0, 'determinant': 0.0, 'kernel': 0.0021231422505307855, 'invertible': 0.025477707006369428,
+ 'polynomial': 0.0021231422505307855, 'projection': 0.006369426751592357, 'eigenvalue': 0.004246284501061571,
+ 'normal': 0.0021231422505307855, 'diagonalization': 0.0, 'cofactor': 0.008492569002123142, 'mapping': 0.02335456475583864,
+ 'dot': 0.0021231422505307855, 'combination': 0.006369426751592357, 'system': 0.029723991507430998, 'R': 0.0, 'subspaces': 0.0,
+ 'reduced': 0.006369426751592357, 'algebraic': 0.0021231422505307855, 'expansion': 0.004246284501061571, 'inverse': 0.004246284501061571,
+ 'lower': 0.004246284501061571, 'coefficients': 0.0, 'matrix': 0.13800424628450106, 'field': 0.0, 'eigenvalues': 0.012738853503184714,
+ 'operator': 0.0, 'perpendicular': 0.0021231422505307855}
 
 
 frequency_weights = {'subspace': 0.015651438240270727, 'scalar': 0.018401015228426396, 'polynomial': 0.00655668358714044,
@@ -49,7 +57,11 @@ parse_link = 'https://api.ocr.space/parse/image'
 
 
 #theromes and definitions
-num_def = 81
+num_def = 82
 num_the = 95
+
+#calculation values
+c1_weight = 0.25
+c2_weight = 0.75
 
 

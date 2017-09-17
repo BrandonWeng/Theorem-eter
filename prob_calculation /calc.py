@@ -1,23 +1,16 @@
 import constants as const
 
-print("hi")
-data = ['set','subspace','asdasf','vector','rank']
-
+#takes in an array of strings and will return the relative score
 def score_calc(data):
-    score = 0
+    score1 = 0
+    score2 = 0
     for word in data:
         if word in const.frequency_weights:
-            score = score + const.frequency_weights[word]
-    print(score)
+            score1 = score1 + const.frequency_weights[word]
+        if word in const.keyterm_weights:
+            score2 = score2 + const.keyterm_weights[word]
+    score = score1 * const.c1_weight + score2 * const.c2_weight
     return score
-
-
-# with open ("defBody6text", 'rb') as loadText:
-#     text = pickle.load(loadText);
-#     print("test:")
-#     print(text)
-
-score_calc(data)
 
 
 

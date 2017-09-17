@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 class uWaterlooMath136(declarative_base()):
     __tablename__ = 'uwaterloomath136'
 
-    keyWord = Column(String,primary_key=True)
+    keyWord = Column(String, primary_key=True)
     fileNames = Column(String)
     score = Column(Integer)
 

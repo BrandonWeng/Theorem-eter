@@ -1,6 +1,8 @@
 import os
 from flask import Flask, request,flash, jsonify, send_from_directory, abort
 from werkzeug.utils import secure_filename
+import pickle
+from getEveryting import getEverting
 
 UPLOAD_FOLDER = 'img/'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
@@ -49,10 +51,11 @@ def upload_image():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
             #TODO : result will be determined based on the list of keywords hanyu/mike provides
-            result = {
-                'basis': 'uWaterlooMath136_1,uWaterlooMath136_2',
-                'angular': 'uWaterlooMath136_3,uWaterlooMath136_4'
-            }
+            result = getEverting(app.config['UPLOAD_FOLDER'] + filename)
+            #{
+             #    'basis': 'uWaterlooMath136_1,uWaterlooMath136_2',
+            #     'angular': 'uWaterlooMath136_3,uWaterlooMath136_4'
+            # }
 
             return jsonify({'upload': True, 'name': filename, 'result': result})
 

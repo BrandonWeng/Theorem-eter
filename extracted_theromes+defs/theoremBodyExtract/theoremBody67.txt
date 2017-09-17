@@ -1,0 +1,4 @@
+If A is an m matrix with reduced row echelon form R, then there exists a sequence 
+m, 
+, Ek of m x m elementary matrices such that Ek • • • E2ElA = R. In particular, 
+A E71E;l 

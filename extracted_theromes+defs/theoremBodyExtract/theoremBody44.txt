@@ -1,0 +1,5 @@
+. e V. Then, e Span{Ü1, 
+Let V be a vector space and , 
+if and only if 
+= Span{fi,..., 
+, Vi-l. 

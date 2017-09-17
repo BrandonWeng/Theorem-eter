@@ -1,0 +1,3 @@
+Let A be an m x n matrix. If B is an n x m matrix such that AB Im, then B is called 
+a right inverse of A. If C is an n xm matrix such that CA = In, then C is called a left 
+inverse of A. 

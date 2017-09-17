@@ -1,0 +1,2 @@
+Let R be the RREF of a coefficient matrix of a system of linear equations. If the j-th 
+column of R does not contain a leading one, then we call x, a free variable. 

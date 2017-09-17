@@ -1,0 +1,3 @@
+Let A be an n x n matrix. If there exists a matrix P and diagonal matrix D such that 
+P-IAP = D, then 
+Ak PDkp- 

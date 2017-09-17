@@ -1,0 +1,3 @@
+If a subset S of R" can be written as a span of vectors 131, , 13k where {VI, , 
+linearly independent, then the set {131, , is called a basis for S. 
+We define a basis for the set 16) to be the empty set. 

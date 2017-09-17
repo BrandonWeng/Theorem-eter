@@ -1,0 +1,3 @@
+If A1, 
+. , are all the eigenvalues of an n x n matrix A, then 
+trA + + An 

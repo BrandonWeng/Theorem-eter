@@ -1,0 +1,3 @@
+Let L : be a linear operator. If there exists a vector (j such that 
+LOT) = RÜ, then A is called an eigenvalue of L and is called an eigenvector of L 
+corresponding to R. 

@@ -1,0 +1,4 @@
+A vector = 
+z R" is called a solution of a system of m linear equations in n 
+variables if all m equations are satisfied when we set = Si for I i n. The set of 
+all solutions of a system of linear equations is called the solution set of the system. 

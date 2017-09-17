@@ -1,0 +1,5 @@
+Let — 
+and — 
+be two vectors in P?. We define addition by 
+Xn+Yn 
+and scalar multiplication by a real number c (called a scalar) by 

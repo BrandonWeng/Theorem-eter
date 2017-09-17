@@ -1,0 +1,2 @@
+If A is an n x n upper or lower triangular matrix, then the eigenvalues of A are the 
+diagonal entries of A. 

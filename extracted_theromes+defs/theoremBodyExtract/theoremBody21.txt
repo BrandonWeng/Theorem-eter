@@ -1,0 +1,1 @@
+A set of n vectors in R" is linearly independent if and only if it spans R". 

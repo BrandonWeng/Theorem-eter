@@ -1,0 +1,2 @@
+If the augmented matrices A1 1 bl and [A | 13 are row equivalent, then the systems 
+of linear equations associated with each system are equivalent. 

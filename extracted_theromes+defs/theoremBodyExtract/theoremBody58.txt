@@ -1,0 +1,3 @@
+If A and B are n x n matrices such that AB 
+rankA = rankB = n. 
+= I, then A and B are invertible and 

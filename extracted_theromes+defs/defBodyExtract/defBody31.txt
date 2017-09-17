@@ -1,0 +1,2 @@
+Two matrices A and B are said to be row equivalent if there exists a sequence of 
+elementary row operations that transform A into B. We write A B. 

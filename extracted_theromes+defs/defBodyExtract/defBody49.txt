@@ -1,0 +1,2 @@
+Let A be an m x n matrix. The nullspace (kernel) of A is defined by 
+Null(A) = I 

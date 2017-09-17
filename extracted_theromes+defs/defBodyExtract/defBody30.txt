@@ -1,0 +1,4 @@
+The three elementary row operations (EROs) are: 
+l. multiplying a row by a non-zero scalar, 
+2. adding a multiple of one row to another, 
+3. swapping two rows. 

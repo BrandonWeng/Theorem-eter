@@ -1,0 +1,8 @@
+A set of vectors {Él,.. 13k} in R" is said to be linearly dependent if there exist 
+coefficients Cl, ... , not all zero such that 
++ + cot 
+A set of vectors {VI, 
+, 13k} is said to be linearly independent if the only solution to 
+ö-CIÜl+...+CkÜk 
+is c, = c2 
+— = = O (called the trivial solution). 

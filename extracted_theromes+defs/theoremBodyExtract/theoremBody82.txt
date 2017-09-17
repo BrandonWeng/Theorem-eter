@@ -1,0 +1,3 @@
+If A is an invertible n x n matrix, then (A 
+1 
+detA 

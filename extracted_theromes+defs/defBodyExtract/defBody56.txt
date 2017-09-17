@@ -1,0 +1,9 @@
+A set V with an operation of addition, denoted F + j, and an operation of scalar 
+multiplication, denoted cÆ, is called a vector space over R if for every v, x, y e V 
+and c, d e R we have: 
+There is a vector d e V, called the zero vector, such that .t+ö = d for all e V 
+V4 
+There exists an element e V, called the additive inverse of r, such that 
+c(dF) — (ed)f 
+VIO 
+We call the elements of V vectors. 

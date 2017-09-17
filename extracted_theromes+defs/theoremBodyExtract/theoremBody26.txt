@@ -1,0 +1,2 @@
+(Matrices Equal Theorem) 
+If A and B are m x n matrices such that A d = BY for every R", then A = B. 

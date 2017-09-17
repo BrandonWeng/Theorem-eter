@@ -1,0 +1,13 @@
+If L, 
+M, N e L and c, d e R, then 
+V4 
+There exists a linear mapping O : R" such that L + O = L for all L. In 
+particular, O is the linear mapping defined by O(F) = for all r e R" 
+There exists a linear mapping (—L) : * with the property that = 
+O. In particular, (—L) is the linear mapping defined by — —L(f) for all 
+Fee. 
+V6 clue L 
+V7 c(dL) (cd)L 
+VS (c + cL+dL 
+V9 c(L+ M) = cL+cM 
+VIO 

@@ -1,0 +1,20 @@
+The coefficient matrix for the system of linear equations 
+— b2 
+all Xl a12_X2 + 
+a22X2 + 
+is the rectangular array 
+all 
+am 1 
+(112 
+a22 
+The augmented matrix of the system is 
+{121 
+(112 
+[122 
+Clln_Xn — 
+• • • C12nXn — 
+. + amnXn b 
+a 10 
+a 
+aln 
+b2 

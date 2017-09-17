@@ -1,0 +1,4 @@
+Let A be an n X n matrix with n 2: 2. The determinant of A is defined to be 
+detA = 
+ailCi1 
+where the determinant of a 1 x I matrix is defined by det[c] = c. 

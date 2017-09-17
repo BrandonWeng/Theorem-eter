@@ -1,0 +1,13 @@
+An m x n matrix A is a rectangular array with m rows and n columns. We denote the 
+entry in the i-th row and j-th column by That is, 
+all 
+ail 
+aml 
+012 
+a22 
+an 
+ann 
+alj 
+a2j 
+a 
+The set of all m x n matrices with real entries is denoted by 

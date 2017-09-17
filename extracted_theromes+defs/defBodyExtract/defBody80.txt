@@ -1,0 +1,3 @@
+Let A be an n x n matrix with eigenvalue R. We call the nullspace of A 
+eigenspace of A. The eigenspace is denoted Ea. 
+M the 

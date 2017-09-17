@@ -1,0 +1,2 @@
+If a system of linear equations has at least one solution, then it is said to be consistent. 
+Otherwise, it is said to be inconsistent. 

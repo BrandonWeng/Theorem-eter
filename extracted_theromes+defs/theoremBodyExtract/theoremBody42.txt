@@ -1,0 +1,3 @@
+(Subspace Test) 
+If S is a non-empty subset of V such that i + e S and e for all R, e S and 
+c e R under the operations of V, then S is a subspace of V. 

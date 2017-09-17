@@ -1,0 +1,2 @@
+The rank of a matrix A is the number of leading ones in the RREF of the •natrix and 
+is denoted rank A. 

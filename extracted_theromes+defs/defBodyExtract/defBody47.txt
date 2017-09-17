@@ -1,0 +1,2 @@
+Let L : R'l —i R"' be a linear mapping. The range of L is defined by 
+Range(L) - IL(F) e r I R") 

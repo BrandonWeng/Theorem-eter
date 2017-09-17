@@ -1,0 +1,1 @@
+If A is an n x n matrix with eigenvalue RI, then I ga, . 

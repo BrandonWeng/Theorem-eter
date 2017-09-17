@@ -1,0 +1,1 @@
+If L : R" —+ R"' is a linear mapping, then Range(L) is a subspace of R"' 

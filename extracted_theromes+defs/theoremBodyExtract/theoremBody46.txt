@@ -1,0 +1,2 @@
+Any set of vectors (i?l, , in a vector space V which contains the zero vector is 
+linearly dependent. 

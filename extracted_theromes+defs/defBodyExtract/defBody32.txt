@@ -1,0 +1,8 @@
+A matrix R is said to be in reduced row echelon form (RREF) if: 
+1. All rows containing a non-zero entry are above rows which only contains zeros. 
+2. The first non-zero entry in each non-zero row is l, called a leading one. 
+3. The leading one in each non-zero row is to the right of the leading one in any 
+row above it. 
+4. A leading one is the only non-zero entry in its column. 
+If A is row equivalent to a matrix R in RREF, then we say that R is the reduced row 
+echelon form of A. 

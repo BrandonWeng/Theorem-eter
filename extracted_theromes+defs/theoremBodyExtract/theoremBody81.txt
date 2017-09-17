@@ -1,0 +1,1 @@
+If A is an n x n matrix with cofactors Cij and i * j, then 

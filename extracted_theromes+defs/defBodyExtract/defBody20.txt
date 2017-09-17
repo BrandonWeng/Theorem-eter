@@ -1,0 +1,6 @@
+Let P be a plane in 123 that passes through the point B(bl, b2, b3). If — 
+a vector such that 
+"II X I + n2X2 + n3X3 = + + 
+(1.5) 
+is an equation for P, then is called a normal vector for P. We call equation (1.5) a 
+scalar equation of P. 

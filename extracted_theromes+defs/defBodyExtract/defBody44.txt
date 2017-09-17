@@ -1,0 +1,5 @@
+If is an m x n matrix, then we can write A as the k x block matrix 
+All 
+Akl 
+where Aij is a block such that all blocks in the i-th row have the same number of rows 
+and all blocks in the j-th column have the same number of columns. 

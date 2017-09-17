@@ -1,0 +1,4 @@
+A set of vectors IF, , ... , 17k) in a vector space V is linearly dependent if and only if 
+e Span{v31, , It-I, 
+, V,z} for some i, I S i k. 
+Vi+l,... 

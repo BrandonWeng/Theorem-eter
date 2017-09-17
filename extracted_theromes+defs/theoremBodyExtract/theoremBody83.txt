@@ -1,0 +1,5 @@
+(Cramer's Rule) 
+If A is an n X n invertible matrix, then the solution Fof Ad = b is given by 
+detAt 
+detA 
+where Ai is the matrix obtained from A by replacing the i-th column of A by 

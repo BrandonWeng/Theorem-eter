@@ -1,0 +1,2 @@
+(addition to the Invertible Matrix Theorem) 
+An n x n matrix A is invertible if and only if detA * 0. 

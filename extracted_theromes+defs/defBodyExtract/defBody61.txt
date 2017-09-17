@@ -1,0 +1,6 @@
+lfß-Fl,..., 
+n and write 
+j,) is a basis for a vector space V, then we say the dimension of V is 
+dim V n 
+If V is the trivial vector space, then dim V = 0. If V does not have a basis with a 
+finite number of vectors in it, then V is said to be infinite dimensional. 

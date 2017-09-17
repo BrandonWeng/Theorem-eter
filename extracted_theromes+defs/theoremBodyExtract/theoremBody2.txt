@@ -1,0 +1,6 @@
+LetFl,. . , 
+. e k". There exists some vector Fi, I i k such that can be written 
+as a linear combination of VI, .. 
+. , 13k if and only if 
+Span{ßl,. . 
+, = Span{öl, 13 

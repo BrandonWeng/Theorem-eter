@@ -1,0 +1,3 @@
+Letß= {131.... , 
+be a basis for a vector space V and let C = , v?'k} be a set 
+in V. If k > n. then C is linearly dependent. 

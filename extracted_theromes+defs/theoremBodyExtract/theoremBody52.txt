@@ -1,0 +1,2 @@
+1 is a basis for a vector space V, then every 'V can be written as 
+a unique linear combination of the vectors in B. 

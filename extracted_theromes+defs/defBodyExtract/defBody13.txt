@@ -1,0 +1,6 @@
+Let = 
+and = 
+be vectors in R" 
+. The dot product of and j is 
+. + Xnyn 
+XiYi 

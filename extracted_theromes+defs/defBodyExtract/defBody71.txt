@@ -1,0 +1,2 @@
+An m Xn matrix U is said to be upper triangular if = O whenever i > j. An m X n 
+matrix L is said to be lower triangular if = O whenever i < j. 

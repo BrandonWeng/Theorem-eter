@@ -1,0 +1,18 @@
+(Invertible Matrix Theorem) 
+For any n x n matrix A, the following are equivalent: 
+(1) 
+A is invertible 
+(2) The RREFofA is 
+(3) 
+rank A = n 
+The system of equations AF = b is consistent with a unique solution for all 
+(4) 
+BeR" 
+The nullspace of A is {d} 
+(5) 
+(6) 
+The columns of A form a basis for 
+(7) 
+The rows of A form a basis for 
+AT is invertible 
+(8) 

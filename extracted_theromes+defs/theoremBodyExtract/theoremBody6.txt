@@ -1,0 +1,3 @@
+(Subspace Test) 
+Let be a non-empty subset of R". If F + f e S and cre S for all F, j e and c e R, 
+then S is a subspace of R'l. 

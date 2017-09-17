@@ -1,0 +1,3 @@
+If V is a vector space, then 
+(1) Oi=dfora11ReV, 
+(2) - (-1)Ffor all re V. 

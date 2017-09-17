@@ -1,0 +1,2 @@
+If A is an invertible matrix, then detA- 
+det A 

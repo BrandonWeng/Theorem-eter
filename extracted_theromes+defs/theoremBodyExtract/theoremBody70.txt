@@ -1,0 +1,6 @@
+Let A be an n x n matrix. For any i with I i n 
+detA — 
+called the cofactor expansion across the i-th row, OR for any j with I j n 
+detA = 
+akjctj 
+called the cofactor expansion across the j-th column. 

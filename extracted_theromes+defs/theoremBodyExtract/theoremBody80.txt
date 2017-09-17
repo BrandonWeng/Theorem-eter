@@ -1,0 +1,1 @@
+If A is an n x n matrix, then detA — detAT. 

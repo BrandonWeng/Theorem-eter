@@ -1,0 +1,3 @@
+(Diagonalization Theorem) 
+An n x n matrix A is diagonalizable if and only if there exists a basis {C, , , for 
+R" of eigenvectors of A. 

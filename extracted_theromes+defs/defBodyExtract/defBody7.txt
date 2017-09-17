@@ -1,0 +1,2 @@
+In R", let Üi represent the vector whose i-th component is 1 and all other components 
+are 0. The set VI, ... , a,} is called the standard basis for RI'. 

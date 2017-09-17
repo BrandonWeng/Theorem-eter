@@ -1,0 +1,2 @@
+.. , be a set of vectors in r. We define the span of by 
+We say that the set Span B is spanned by B and that B is a spanning set for Span B. 

@@ -1,0 +1,4 @@
+An n x n matrix D is said to be a diagonal matrix ifdij = O for all i j. We denote 
+a diagonal matrix by 
+diag(dll, 
+dnn) 

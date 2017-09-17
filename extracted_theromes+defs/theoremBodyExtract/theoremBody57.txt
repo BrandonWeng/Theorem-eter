@@ -1,0 +1,1 @@
+If A, B, and C arc n x n matrices such that AB = I = CA, then B = C. 

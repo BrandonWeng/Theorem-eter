@@ -1,0 +1,4 @@
+Let B - 
+and C both be bases for a vector space V. The change of 
+coordinates matrix from B-coordinates to C-coordinates is defined by 
+and for any c V we have 

@@ -1,0 +1,4 @@
+If L: 
+then 
+R'l RR' is a linear mapping with standard matrix [L] 
+Range(L) = Span(äl,... ,dnl 

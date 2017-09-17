@@ -1,0 +1,1 @@
+If A is a matrix, then A has a unique reduced row echelon form R. 

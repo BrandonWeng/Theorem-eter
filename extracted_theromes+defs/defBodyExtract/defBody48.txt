@@ -1,0 +1,3 @@
+Let L : k" —+ k"' be a linear mapping. The kernel (nullspace) of L is the set of all 
+vectors in the domain which are mapped to the zero vector in the codomain. That is, 
+Ker(L) = {Fe R" I L(F) = d) 

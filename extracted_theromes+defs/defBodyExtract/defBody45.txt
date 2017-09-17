@@ -1,0 +1,3 @@
+A function L : R" —9 R"' is said to be a linear mapping if for every F, e R" and 
+b, c e R we have 
+L(bÆ+ + 

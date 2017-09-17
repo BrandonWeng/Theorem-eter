@@ -1,0 +1,4 @@
+If V is an n-dimensional vector space with n > 0, then 
+(1) a set of more than n vectors in 'V must be linearly dependent 
+(2) a set of fewer than n vectors in V cannot span V 
+(3) a set of n vectors in V is linearly independent if and only if it spans V 

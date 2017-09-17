@@ -1,0 +1,2 @@
+For any m x n matrix A we have 
+rank A min(m, n) 

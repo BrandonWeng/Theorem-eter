@@ -1,0 +1,2 @@
+Let V be a vector space. If S is a subset of V and S is a vector space under the same 
+operations as V, then S is called a subspace of V. 

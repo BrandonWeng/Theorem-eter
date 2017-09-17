@@ -1,0 +1,1 @@
+If A is an n x n matrix with n distinct eigenvalues, then A is diagonalizable. 

@@ -1,0 +1,8 @@
+If V is an n-dimensional vector space and {131, . , 
+vök+l,... 
+dent set in V with k < n, then there exist vectors 
+Vk, vök+l, , Wni is a basis for V. 
+a linearly 
+, bit in V 
+indepen- 
+such that 

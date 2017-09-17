@@ -1,0 +1,1 @@
+If S is a subspace of a finite dimensional vector space V, then dim S dim V. 

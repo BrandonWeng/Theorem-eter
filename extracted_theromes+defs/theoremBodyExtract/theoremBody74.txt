@@ -1,0 +1,1 @@
+If an n X n matrix A has two identical rows, then detA = O. 

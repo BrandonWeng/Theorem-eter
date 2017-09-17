@@ -1,0 +1,3 @@
+Let A be an n x n matrix. If there exists a vector (j such that AF F. then A 
+is called an eigenvalue of A and is called an eigenvector of A corresponding to n. 
+The pair (A, 13) is called an eigenpair. 

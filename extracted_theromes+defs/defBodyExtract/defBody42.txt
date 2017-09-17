@@ -1,0 +1,5 @@
+For an m X n matrix A and an n x p matrix B — 
+m x p matrix 
+ABI 
+we define AB to be the 
+ASP 

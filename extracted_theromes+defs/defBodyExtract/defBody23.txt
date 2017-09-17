@@ -1,0 +1,2 @@
+The projection of 17 123 onto a plane P in R3 with normal vector n is defined by 
+projp(/7) = perpF(/7) 

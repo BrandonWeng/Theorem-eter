@@ -22,19 +22,26 @@ class uWaterlooMath136FileNamesDAO(object):
         self.session.commit()
 
     def query(self, textQuery, param={}):
-        result = self.session.execute(text(textQuery), param)
+        result = self.session.execute(textQuery, param)
         return result
+
+    def getFilenames(self, keyword):
+        result = self.session.execute("SELECT filenames FROM textbooks.uwaterloomath136filenames where keyword=:param;", {"param":keyword})
+        for first in result:
+            return first.filenames
+
 
 
 if __name__ == "__main__":
     math136FileNameDAO = uWaterlooMath136FileNamesDAO()
-    math136FileNameDAO.query("INSERT INTO textbooks.uwaterloomath136filenames VALUES ('basis', 'uWaterlooMath136_1,uWaterlooMath136_2'), ('angular', 'uWaterlooMath136_3,uWaterlooMath136_4');")
+    print(math136FileNameDAO.getFilenames("basis"))
 
-    for keyword in math136FileNameDAO.query("SELECT * from textbooks.uwaterloomath136filenames;"):
-        print(keyword.keyword, keyword.filenames)
-    print("-------------------")
-
-    math136FileNameDAO.insert("TEST","TEST2,TEST3,TEST4")
-
-    for keyword in math136FileNameDAO.query("SELECT * from textbooks.uwaterloomath136filenames;"):
-        print(keyword.keyword, keyword.filenames)
+    # math136FileNameDAO.query("INSERT INTO textbooks.uwaterloomath136filenames VALUES ('basis', 'uWaterlooMath136_1,uWaterlooMath136_2'), ('angular', 'uWaterlooMath136_3,uWaterlooMath136_4');")
+    # for keyword in math136FileNameDAO.query("SELECT * from textbooks.uwaterloomath136filenames;"):
+    #     print(keyword.keyword, keyword.filenames)
+    # print("-------------------")
+    #
+    # math136FileNameDAO.insert("TEST","TEST2,TEST3,TEST4")
+    #
+    # for keyword in math136FileNameDAO.query("SELECT * from textbooks.uwaterloomath136filenames;"):
+    #     print(keyword.keyword, keyword.filenames)

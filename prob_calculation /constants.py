@@ -48,5 +48,8 @@ res = "ParsedResults"
 parse_link = 'https://api.ocr.space/parse/image'
 
 
+#theromes and definitions
+num_def = 81
+num_the = 95
 
 

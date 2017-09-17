@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, redirect, url_for,flash, jsonify, send_from_directory, abort
+from flask import Flask, request,flash, jsonify, send_from_directory, abort
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'img/'
@@ -12,7 +12,7 @@ app.config['SESSION_TYPE'] = 'filesystem'
 app.debug = True
 @app.route('/')
 def home():
-    return 'Team Wave HTN 2017'
+    return 'Team Wave HTN 2017 robot.txt??'
 
 
 @app.route('/test_post', methods=['GET', 'POST'])
@@ -27,6 +27,7 @@ def allowed_file(filename):
 
 @app.route('/upload_image', methods=['GET', 'POST'])
 def upload_image():
+
     if request.method == 'POST':
 
         # check if the post request has the file part
@@ -45,19 +46,26 @@ def upload_image():
 
         if file and allowed_file(file.filename):
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            return jsonify({'upload': True, 'name': filename})
 
-    return jsonify({'upload': False, 'name': filename})
+            #TODO : result will be determined based on the list of keywords hanyu/mike provides
+            result = {
+                'basis': 'uWaterlooMath136_1,uWaterlooMath136_2',
+                'angular': 'uWaterlooMath136_3,uWaterlooMath136_4'
+            }
+
+            return jsonify({'upload': True, 'name': filename, 'result': result})
+
+    return jsonify({'upload': False})
 
 
 @app.route('/get/picture/<string:name>', methods=['GET'])
 def send_pics(name):
-    pics = open("./files/" + name)
+    pics = open("img/" + name)
     if pics:
-        return send_from_directory(app.config['UPLOAD_FOLDER'],
-                                       name)
+        return send_from_directory(app.config['UPLOAD_FOLDER'], name)
 
     abort(404)
+
 
 if __name__ == "__main__":
     app.run()

@@ -28,8 +28,13 @@ class uWaterlooMath136DAO(object):
 
 if __name__ == "__main__":
     math136DAO = uWaterlooMath136DAO()
+    #math136DAO.query("DROP TABLE textbooks.uwaterloomath136")
+    math136DAO.query("CREATE TABLE textbooks.uwaterloomath136 (keyWord STRING, fileNames STRING, score INTEGER);")
+    math136DAO.query("INSERT INTO textbooks.uwaterloomath136 VALUES ('basis', 'uWaterlooMath136_1,uWaterlooMath136_2',12), ('angular', 'uWaterlooMath136_3,uWaterlooMath136_4',99);")
+
     for keyword in math136DAO.query("SELECT * from textbooks.uwaterloomath136;"):
         print(keyword.keyword, keyword.filenames, keyword.score)
+    print("-------------------")
 
     math136DAO.insert("TEST","TEST2,TEST3,TEST4", 21)
 

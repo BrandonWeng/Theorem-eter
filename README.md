@@ -3,6 +3,8 @@ Hanyu Qu, Mike Chen, Brandon Weng, Ziyin(Cody) Wang
 University of Waterloo
 Hack the North 2017 
 
+iOS: https://github.com/ziyincody/Theorem-eteriOS
+
 Introduction: 											
 Do you ever find yourself stuck when doing a math problem? Unfortunately, the members of our team do and constantly encounter thet sad feeling of not knowing what to think, not even knowing where to turn the textbook. Fortunately, as technology loving students, we turned to the obvious  solution of using our skills and data to help address the issue (instead of maybe study harder?). With the idea of developing a tool that can help you get unstuck, by providing “smart” insights and inspirations in the form of pictures of useful definitions and theorems to help you solve a problem. Of course, ease of use and convenience was the major theme and goal for us to focus on. 
 
